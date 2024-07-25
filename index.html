@@ -6,6 +6,20 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <style>
+      .project {
+        border: 1px solid red;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 70vh;
+      }
+    </style>
   </head>
   <body>
     <div class="nav">
@@ -29,21 +43,33 @@
           Hey, I'm <br />
           <span style="color: #4169e1"> SHAIKH ALTAMASH</span> <br />
         </h1>
-        <p style="font-size: 1.5rem;">Transforming Ideas into Interactive Digital Realities</p>
-        <a class="resume" target="_blank" href="https://drive.google.com/file/d/1_AyDxZtLZ0HronZnNu36YPboCB0dGuyo/view?usp=sharing" download="SHAIKH_ALTAMASH_RESUME">RESUME</a>
+        <p style="font-size: 1.5rem">
+          Transforming Ideas into Interactive Digital Realities
+        </p>
+        <a
+          class="resume"
+          target="_blank"
+          href="https://drive.google.com/file/d/1_AyDxZtLZ0HronZnNu36YPboCB0dGuyo/view?usp=sharing"
+          download="SHAIKH_ALTAMASH_RESUME"
+          >RESUME</a
+        >
       </div>
     </div>
-    <h1 style="margin: 50px auto ; text-align: center; font-size: 3rem; font-weight: 800; color: #4169e1;">ABOUT ME </h1>
+    <h1 class="title" style="margin: 50px auto" id="about">ABOUT ME</h1>
 
-    <section class="section" id="about about-section">
+    <section class="section" id="about-section">
       <div class="about">
         <div class="about-image">
-          <img src="mypic.png" alt="Altamash Image" />
+          <img src="assets/mypic.png" alt="Altamash Image" />
         </div>
         <div
           class="about-me"
           style="padding: 20px 30px 0 30px; font-size: 1.2rem"
         >
+          <h1 style="color: #2245ad; font-size: 2.5rem; font-weight: 800">
+            FULL STACK <br />
+            WEB DEVELOPER
+          </h1>
           <p>
             a dedicated full stack web developer based in Mumbai, India. With a
             background in science, I've transitioned into web development,
@@ -60,6 +86,59 @@
       </div>
     </section>
 
+    <h1 class="title" style="margin-top: 0" id="skills">SKILLS</h1>
+    <section class="section">
+      <div class="skills-section">
+        <div><img src="assets/html.png" alt="html" />HTML</div>
+        <div><img src="assets/css.png" alt="css" />CSS</div>
+        <div>
+          <img src="assets/javascript2.png" alt="javaScript" />JAVASCRIPT
+        </div>
+        <div><img src="assets/react.png" alt="reactjs" />REACT JS</div>
+        <div><img src="assets/redux.png" alt="redux" />REDUX</div>
+        <div><img src="assets/nodejs.png" alt="nodejs" />NODE JS</div>
+        <div><img src="assets/express.png" alt="express" />EXPRESS</div>
+        <div><img src="assets/mongodb.png" alt="mongodb" />MONGODB</div>
+        <div><img src="assets/mongoose.png" alt="mongoose" />MONGOOSE</div>
+        <div><img src="assets/chakraui.png" alt="chakraui" />CHAKRA UI</div>
+        <div><img src="assets/git.png" alt="git" />GIT</div>
+        <div><img src="assets/postman.png" alt="postman" />POSTMAN</div>
+      </div>
+    </section>
 
+    <h1 class="title">PROJECTS</h1>
+    <section class="section" id="projects">
+      <div class="project-section">
+
+        <div class="project">
+          <img src="/assets/bluefly.png" alt="bluefly" />
+          <h2>🌐 BLUEFLY CLONE</h2>
+          <p>
+            BlueFly Website Recreation As part of my portfolio, I undertook the
+            challenge of replicating the bluefly website. This clone accurately
+            mirrors the original site's design and functionality, demonstrating
+            my expertise in frontend development and my ability to recreate
+            complex web interfaces.
+          </p>
+          <div class="deployed">
+            <i class="fas fa-rocket icon"></i>
+            <!-- Rocket Icon -->
+            <i class="fab fa-github icon"></i>
+          </div>
+        </div>
+
+        <div class="project">
+          <img src="/assets/bluefly.png" alt="bluefly" />
+          <h2>BLUEFLY CLONE</h2>
+          <p></p>
+        </div>
+
+        <div class="project">
+          <img src="/assets/bluefly.png" alt="bluefly" />
+          <h2>BLUEFLY CLONE</h2>
+          <p></p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
