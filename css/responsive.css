@@ -1,0 +1,219 @@
+@media (max-width:800px) {
+  * {
+    
+    box-sizing: border-box;
+  }
+  #section1 {
+    margin-top: -6vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutMe>h1{
+    text-align: center;
+    padding: 5px;
+  }
+  #express{
+    margin-top: 50px;
+  }
+  #section1 header {
+    flex-wrap: wrap;
+  }
+  #section1 nav {
+    flex-wrap: wrap;
+  }
+
+  .containerMain {
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+  }
+  #section1 .containerMain .about2{
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 0 3vh 0;
+    flex-wrap: wrap;
+  }
+  .aboutMe{
+    margin-top: 2.5vh;
+  }
+  .aboutmeText{
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    line-height: 1.9rem;
+    width: 90%;
+  }
+  .center{
+    /* position: absolute  ; */
+    text-align: center;
+    margin: auto;
+  }
+  .discuss{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+  }
+  .image{
+    margin-top: 3vh;
+  }
+  .image div {
+    /* margin-top: 3vh; */
+    /* width: 80%; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* margin: auto; */
+    /* margin: 0; */
+    margin: auto;
+  }
+  .image div img{
+    display: block;
+    margin: auto;
+  }
+  .image p {
+    width: 90%;
+    /* width: auto; */
+    text-align: center;
+    
+    margin: auto;
+  }
+  #section2 .fatHr{
+    margin-top: 5vh;
+    /* margin: auto; */
+  }
+  #aboutme{
+    margin-top: 3vh;
+  }
+  .aboutMemain {
+    flex-wrap: wrap;
+    gap: 10vh;
+    /* width: 100%; */
+  }
+  #section3,
+  .toolbox {
+    flex-wrap: wrap;
+  }
+  .skillbox{
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr);
+    
+  }
+  .toolbox{
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  
+  .summ{
+    text-align: center;
+  }
+  .toolbox,.skillbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+  }
+  .toolbox>div{
+    margin: auto;
+  }
+  .skillbox>div{
+    margin: auto;
+  }
+
+  .cardContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #section5 .cardsContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .footer {
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 20px;
+    font-size: 15px;
+  }
+  .instagram{
+    /* display: none; */
+    /* padding: 20px; */
+  }
+  .copyright{
+    text-align: left;
+    font-size: 12px;
+    margin-left: 0.4em;
+    margin-bottom: 1em;
+  }
+  form {
+    /* margin-top: 10vh; */
+    margin: auto;
+    width: 90%;
+    
+  }
+  #section7{
+    margin-bottom: 5vh;
+  }
+  .message {
+    width: 100%;
+    margin: auto;
+  }
+  .footer > .contactContainer {
+    /* grid-template-columns: repeat(3,1fr); */
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* section{
+    border: 2px solid red;
+  } */
+  #github .row{
+    padding: 20px;
+  }
+  #github{
+    /* width: 90%; */
+    margin: auto;
+    margin-bottom: 5vh;
+    /* margin: auto; */
+  }
+  #github .row img {
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+  }
+  .parent .left h1{
+    margin-bottom: 4vh;
+  }
+
+  @keyframes slide {
+    0%,
+    100% {
+      transform: translateX(12);
+    }
+    50% {
+      transform: translateX(
+        calc(-100% / 5)
+      ); /* Slide halfway to create a seamless loop */
+    }
+  }
+  .menu-wrap{
+    display: block;
+  }
+  .headerHide{
+    display: none !important;
+  }
+  .footer{
+    display: block;
+  }
+  .menu > div > div > ul > li > a{
+    font-family: 'poppins',sans-serif !important;
+  }
+}
+    
