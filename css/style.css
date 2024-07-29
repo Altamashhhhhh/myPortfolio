@@ -98,7 +98,7 @@ html {
   border-radius: 50px;
   font-family: Raleway;
   border: 1px solid;
-  color: white;
+  color: red;
   font-size: 1.2rem;
   font-weight: 700;
   border: none;
@@ -195,11 +195,11 @@ html {
   text-decoration: none;
 }
 
-.resume p {
+.resume {
   display: inline-block;
   padding: 12px 30px;
   font-size: 18px;
-  color: black;
+  color: white;
   border: 1px solid #4169e1;
   border-radius: 30px;
   cursor: pointer;
@@ -207,7 +207,11 @@ html {
   overflow: hidden;
   transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
 }
-.resume ::before {
+.resume a {
+  color: white;
+  text-decoration: none;
+}
+/* .resume ::before {
   content: "Download Resume";
   position: absolute;
   font-size: 16px;
@@ -219,13 +223,12 @@ html {
   background-color: #4169e1;
   transition: left 0.3s;
   color: white;
-}
+} */
 .resume :hover::before {
   left: 0;
 }
 .resume :hover {
-  background-color: #4169e1;
-  color: black;
+ 
   transform: scale(1.1);
   box-shadow: 0 0 20px #4169e1;
 }
