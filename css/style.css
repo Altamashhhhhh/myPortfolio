@@ -66,8 +66,8 @@ html {
 #aboutme {
   padding: 4.5em 0em 0em;
   /* border: 1px solid; */
-  /* margin-top: 12vh; */
-  /* margin-bottom: 28vh; */
+  margin-top: 12vh; 
+   margin-bottom: 28vh; 
 }
 .aboutMemain {
   display: flex;
