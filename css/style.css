@@ -10,8 +10,7 @@ html {
 #section1 {
   margin-top: 1.2rem;
 }
-#section1 header {
-  /* width: 80%; */
+#section1 header { 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -65,7 +64,6 @@ html {
 }
 #aboutme {
   padding: 4.5em 0em 0em;
-  /* border: 1px solid; */
   margin-top: 12vh; 
    margin-bottom: 28vh; 
 }
@@ -86,7 +84,6 @@ html {
 
 #section1 .logo > span {
   padding: 7px;
-  /* border: 1px solid; */
   font-family: "poppins", sans-serif;
   font-size: 40px;
 }
@@ -163,7 +160,6 @@ html {
 #section1 .containerMain .aboutMe h1 .yellow {
   color: #4169e1;
   border-radius: 100px;
-  /* border-bottom: 9px solid #4169e1; */
 }
 
 #section1 li::marker {
@@ -180,10 +176,8 @@ html {
 }
 .image {
   display: flex;
-  /* flex-direction: column; */
 }
 .aboutLine {
-  /* text-align: center; */
   margin-top: 20px;
   width: 70vh;
   line-height: 1.5rem;
@@ -210,20 +204,7 @@ html {
 .resume a {
   color: white;
   text-decoration: none;
-}
-/* .resume ::before {
-  content: "Download Resume";
-  position: absolute;
-  font-size: 16px;
-  top: 0;
-  margin-top: 5px;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background-color: #4169e1;
-  transition: left 0.3s;
-  color: white;
-} */
+}  
 .resume :hover::before {
   left: 0;
 }
@@ -255,6 +236,8 @@ html {
   /* background-color: #22231d; */
   border-top: 2px solid #118dff;
   border-bottom: 2px solid #118dff;
+
+
   color: black;
   height: 70px;
 }
@@ -314,9 +297,8 @@ html {
 
 #section3 h1 .yellow {
   margin-bottom: 4vh;
-  /* text-align: center; */
   font-size: 50px;
-  /* border-radius: 100px; */
+
 
   border-bottom: 9px solid #4169e1;
 }
@@ -325,17 +307,10 @@ html {
 .toolbox {
   margin-top: 5vh;
   display: flex;
-  /* gap: 20px; */
-  /* align-items: center; */
+ 
   align-items: center;
   justify-content: space-evenly;
 }
-
-/* #section3 .skillbox,.toolbox .card svg{
-     
-     
-     
-  } */
 
 .npm > svg {
   color: black;
@@ -547,47 +522,19 @@ svg {
 }
 .techstack {
   color: #4169e1;
-  font-weight: 400;
+  font-weight: 400; 
+  margin: auto;
 }
-#section4 h1 {
-  color: royalblue;
-}
+   
 #section4 h1 span {
   font-size: 50px;
   color: black;
-  /* border-radius: 100px; */
+ 
   border-bottom: 9px solid #4169e1;
 }
 
-.cardContainer {
-  padding-top: 40px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-items: center;
-  row-gap: 30px;
-  column-gap: 30px;
-}
-.cardContainer .card {
-  transition: ease-in-out 0.2s;
-  /* width: 320px; */
-  width: 90%;
-  position: relative;
-  height: 425px;
-  background-color: transparent;
-  border: 3px solid;
-  /* border-radius: 10px; */
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  padding: 0 20px;
-  border: 3px outset #4169e1;
-  /* box-shadow: rgba(65, 105, 225, 1) 0px 0px 0px 4px, 
-                rgba(65, 105, 225, 1) 0px 6px 10px -1px, 
-                rgba(65, 105, 225, 1) 0px 2px 2px inset; */
-                box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-            
-}
+
+                   
 
 #section5 h1 {
   text-align: center;
@@ -648,84 +595,10 @@ svg {
   text-decoration: none;
 }
 
-.cardContainer .card .sec4img {
-  box-sizing: border-box;
-
-  width: 100%;
-  height: 100%;
-}
-.sec4img > img {
-  position: relative;
-  right: 21px;
-  width: 315px;
-  height: 420px;
-}
-.card .precard {
-  display: none;
-}
-.card:hover {
-  img {
-    filter: blur(10px);
-    transition: ease-in-out 0.4s;
-    transition: all 0.2s;
-  }
-  .precard {
-    background-color: rgb(2, 223, 157);
-    transition: ease-in-out 0.5s;
-    z-index: 1;
-    display: block;
-    position: absolute;
-    /* top: 100px; */
-    box-sizing: border-box;
-    right: 0.1px;
-    border-radius: 9px;
-    height: 420px;
-    display: flex;
-    align-items: center;
-  }
-  .precard p {
-    padding: 10px;
-    line-height: 1.5rem;
-  }
-  .precard h1,
-  p {
-    font-family: "poppins", sans-serif;
-  }
-  .weather {
-    background-color: #4169e1;
-  }
-  .lum {
-    background-color: #4169e1;
-    transition: ease-in-out 0.4s;
-  }
-  .YouTube {
-    background-color: white;
-  }
-  .links :nth-child(1) {
-    font-size: 30px;
-
-    color: black;
-
-    padding: 10px;
-    margin: 2px;
-  }
-  .links :nth-child(2) {
-    font-size: 30px;
-    color: black;
-    /* background-color: white; */
-    /* text-decoration: none; */
-    background-color: white;
-    /* border: 2px solid #f25f31; */
-    /* border-radius: 30px; */
-    padding: 11px;
-    margin: 2px;
-  }
-}
-
 #section1,
 #section2,
 #section3,
-#section4,
+/* #section4, */
 #section5,
 #section6 {
   background-color: white;
@@ -854,4 +727,48 @@ input:hover {
 
 .card {
   border: none;
+}
+
+
+#section4 .cardContainer{
+  display: grid;
+  grid-template-columns: repeat(2 , 1fr);
+  gap: 50px;
+}
+
+#section4 .cardContainer .card:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cardContainer img{
+  width: 50%;
+  border: 2px;
+  border: 1px solid #4169e1;
+}
+
+#section4 .card{
+  padding: 30px;
+  text-align: left;
+  box-shadow: #4169e1 0px 3px 8px;
+
+}
+#section4 .card h1{
+  color: royalblue;
+  margin: 7px auto;
+}
+#section4 .card .links{
+  text-align: center;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+#section4 .card img{
+  width: 100%; 
+  /* border: 2px solid red; */
+  height: 200px;
+  margin: 10px auto;
+  
 }
