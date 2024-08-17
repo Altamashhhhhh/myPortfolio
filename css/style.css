@@ -756,12 +756,21 @@ input:hover {
   color: royalblue;
   margin: 7px auto;
 }
+#section4 .card .links a{
+  color: black;
+
+}
 #section4 .card .links{
-  text-align: center;
-  width: 50%;
+  text-align: center;  
+  font-size: 2rem;
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin:20px ;
+}
+
+#section4 .card .links  a:hover{
+  color: royalblue;
+  scale: 1.2;
 }
 
 
