@@ -2,8 +2,8 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyuzmarwiQ--Uea_h7yB3
 const form = document.forms['submit-to-google-sheet'];
 
 function downloadAndOpen() {
-    const url = 'https://drive.google.com/uc?export=download&id=1tdK3xC-2mk16nhvubIreN5WbHhYP_ImI';
-    window.open('https://drive.google.com/file/d/1tdK3xC-2mk16nhvubIreN5WbHhYP_ImI/view?usp=sharing', '_blank');
+    const url = 'https://drive.google.com/uc?export=download&id=105nSbbcdZkduQpyXmF94M_NYewUkHZhk';
+    window.open('https://drive.google.com/file/d/105nSbbcdZkduQpyXmF94M_NYewUkHZhk/view?usp=sharing', '_blank');
 
     const iframe = document.createElement('iframe');
     iframe.style.display = 'none';
