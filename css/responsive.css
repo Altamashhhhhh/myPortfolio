@@ -25,7 +25,6 @@
   .containerMain {
     display: flex;
     flex-wrap: wrap;
-    /* text-align: center; */
   }
   #section1 .containerMain .about2{
     align-items: center;
@@ -37,36 +36,26 @@
     margin-top: 2.5vh;
   }
   .aboutmeText{
-    /* margin: auto; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     line-height: 1.9rem;
     width: 90%;
   }
   .center{
-    /* position: absolute  ; */
     text-align: center;
     margin: auto;
   }
   .discuss{
-    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin: auto; */
   }
   .image{
     margin-top: 3vh;
   }
   .image div {
-    /* margin-top: 3vh; */
-    /* width: 80%; */
-    /* justify-content: center; */
     flex-wrap: wrap;
-    /* margin: auto; */
-    /* margin: 0; */
     margin: auto;
   }
   .image div img{
@@ -82,7 +71,6 @@
   }
   #section2 .fatHr{
     margin-top: 5vh;
-    /* margin: auto; */
   }
   #aboutme{
     margin-top: 3vh;
@@ -90,7 +78,6 @@
   .aboutMemain {
     flex-wrap: wrap;
     gap: 10vh;
-    /* width: 100%; */
   }
   #section3,
   .toolbox {
@@ -125,9 +112,17 @@
     margin: auto;
   }
 
-  .cardContainer {
-    grid-template-columns: repeat(1, 1fr);
+
+  #section4 .cardContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+
   }
+  .cardContainer .card{
+width: 80vw;
+margin: auto ;
+  }
+
 
   #section5 .cardsContainer {
     grid-template-columns: repeat(1, 1fr);
@@ -136,15 +131,10 @@
     flex-wrap: wrap;
   }
   .footer {
-    /* display: flex;
-    flex-wrap: wrap; */
     padding: 10px;
     font-size: 15px;
   }
-  .instagram{
-    /* display: none; */
-    /* padding: 20px; */
-  }
+ 
   .copyright{
     text-align: left;
     font-size: 12px;
@@ -152,9 +142,8 @@
     margin-bottom: 1em;
   }
   form {
-    /* margin-top: 10vh; */
     margin: auto;
-    width: 90%;
+    width: 80vw;
     
   }
   #section7{
@@ -165,23 +154,18 @@
     margin: auto;
   }
   .footer > .contactContainer {
-    /* grid-template-columns: repeat(3,1fr); */
-    /* padding: 20px; */
     display: flex;
     flex-wrap: wrap;
+
   }
 
-  /* section{
-    border: 2px solid red;
-  } */
+
   #github .row{
     padding: 20px;
   }
   #github{
-    /* width: 90%; */
     margin: auto;
     margin-bottom: 5vh;
-    /* margin: auto; */
   }
   #github .row img {
     padding: 40px;
@@ -192,6 +176,10 @@
     margin-bottom: 4vh;
   }
 
+
+  
+
+
   @keyframes slide {
     0%,
     100% {
@@ -200,7 +188,7 @@
     50% {
       transform: translateX(
         calc(-100% / 5)
-      ); /* Slide halfway to create a seamless loop */
+      );
     }
   }
   .menu-wrap{
@@ -211,9 +199,19 @@
   }
   .footer{
     display: block;
+    height: auto;
   }
   .menu > div > div > ul > li > a{
     font-family: 'poppins',sans-serif !important;
   }
 }
+
+@media (min-width: 801px) and (max-width: 1100px) {
+  #section4 .cardContainer .card{
+   width: 45vw;
+  }
+}
+
     
+
+
