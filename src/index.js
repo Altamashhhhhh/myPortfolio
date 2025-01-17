@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyuzmarwiQ--Uea_h7yB3jWS6IuFCA3l0BTHRgjshsttWGYW68Mp18UZIR1TvsK8y5_0g/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwAwXdxjeYSe-d7sVq7yFlIIRUpXeO7K7rY7r8iVS1V9wtQ6I_eCzwdN4pYU-hFEQ4r/exec'
 const form = document.forms['submit-to-google-sheet'];
 
 function downloadAndOpen() {
